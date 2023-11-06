@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+    /* Stile für Mobilgeräte */
+    body {
+        flex-direction: column;
+    }
+}
+
+h1, h2 {
+    color:rgb(40, 82, 82)
+}
+
+.vid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Ecken abrunden */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten hinzufügen */
+}
