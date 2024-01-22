@@ -37,13 +37,17 @@ height: auto;
     align-items: center;
 }
 
-h1, h2, p {
+h1, h2, p, li {
     color: white
 }
 
 sub {
     font-size: 12px;
     padding-bottom: 20px;
+}
+
+li {
+    line-height: 25px;
 }
 
 p{
