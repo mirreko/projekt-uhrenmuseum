@@ -21,6 +21,10 @@ img {
     height: auto;
 }
 
+.img{
+    border-radius: 8px;
+}
+
 .hfu {
 width: 60%;
 height: auto;
@@ -37,7 +41,7 @@ height: auto;
     align-items: center;
 }
 
-h1, h2, p, li {
+h1, h2, h3, p, li {
     color: white
 }
 
@@ -61,6 +65,10 @@ h1 {
 
 h2 {
     font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
 }
 
 .vid-container {
